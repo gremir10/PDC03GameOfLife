@@ -7,19 +7,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
-/* void print_board_indices(short **board, int xlimit, int ylimit) {
-    // print out final board
-    int i,j;
-    for (i = 0; i < xlimit; i++) {
-        for (j = 0; j < ylimit; j++) {
-            if (board[i][j] == 1) {
-                printf("%d %d\n", i, j);
-            }
-        }
-    }
-} */
-
 void print_board(short **board, int xlimit, int ylimit) {
     /* print out final board */
     int i,j;
